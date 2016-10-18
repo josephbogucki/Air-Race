@@ -5,7 +5,6 @@ import org.omg.Messaging.SyncScopeHelper;
 
 public class Main
 	{
-		static double test = 0;
 		static double randomTimeChangeNumber = 0;
 		static double normalTime = 0;
 		static double randomTimeChange = 0;
