@@ -229,5 +229,4 @@ public class Main
 			stillPlay = true;
 			randomTimeChangeNumber = 0;
 		}
-
 	}
