@@ -28,7 +28,7 @@ public class Main
 			}
 		public static void welcome()
 		{
-			System.out.println("Welcome to the Air Race!");
+			System.out.println("Welcome to the Race!");
 		}
 		public static void pojoSetUp()
 		{
