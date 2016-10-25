@@ -50,24 +50,15 @@ public class Main
 		}
 		public static void bet()
 		{
+			int i = 1;
 			restartEverything();
 			System.out.println("Your balance is "+balance+"! Who do you want to bet on?");
 			System.out.println("");
-			System.out.println("1. Hannes Arch");
-			System.out.println("2. Cristian Bolton");
-			System.out.println("3. Kirby Chambliss");
-			System.out.println("4. Matthias Dolderer");
-			System.out.println("5. Michael Goulian");
-			System.out.println("6. Matt Hall");
-			System.out.println("7. Nicolas Ivanoff");
-			System.out.println("8. Patr Kopfstein");
-			System.out.println("9. Nigel Lamb");
-			System.out.println("10. Francios Le Vot");
-			System.out.println("11. Pete Mcleod");
-			System.out.println("12. Toshihide Muroya");
-			System.out.println("13. Peter Pudlunsek");
-			System.out.println("14. Martin Sonka");
-			System.out.println("15. Juan Velarde");
+			for(Racer r : race)
+				{
+					System.out.println(i+". "+ r.getName());
+					i++;
+				}
 			System.out.println("");
 			Scanner userInput = new Scanner(System.in);
 			racerBet = userInput.nextInt();
